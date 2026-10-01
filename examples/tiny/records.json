@@ -1,0 +1,37 @@
+{
+  "_comment": "SYNTHETIC hand-written five-record example",
+  "synthetic": true,
+  "records": [
+    {
+      "id": "school",
+      "kind": "email",
+      "text": "Submit by: 2026-10-08",
+      "synthetic": true
+    },
+    {
+      "id": "application",
+      "kind": "file",
+      "text": "Application form",
+      "deadline": "2026-10-15",
+      "synthetic": true
+    },
+    {
+      "id": "calendar",
+      "kind": "calendar",
+      "text": "Due: 2026-10-20",
+      "synthetic": true
+    },
+    {
+      "id": "meeting",
+      "kind": "calendar",
+      "text": "Meeting mentioned 2026-10-21",
+      "synthetic": true
+    },
+    {
+      "id": "note",
+      "kind": "file",
+      "text": "No deadline: 2026-10-22",
+      "synthetic": true
+    }
+  ]
+}
