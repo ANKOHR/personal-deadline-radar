@@ -1,0 +1,7 @@
+Personal Deadline Radar build complete
+Test count: 50 passed (pytest, 2026-10-01).
+Local implementation commit hash: 0cdfe57f4bf54bd10e36ba2a2dd126a3a775a99c
+The subsequent documentation commit adds this completion record; the implementation hash above pins the tested build.
+Demo runtime: 0.689 seconds for installed pdr fixtures, run and Markdown report subprocesses, below 5 seconds.
+
+Built a deterministic, CPU-only Python CLI with fixtures, run, report, scan and upcoming commands; pure deadline detection for explicit local email, file and calendar records; JSON, JSONL and CSV adapters; atomic report writes; named failures; provenance banners and per-record evidence. The labelled 200-record synthetic fixture yields exactly 80 planted deadlines with no false positives, and the five-record hand-written example yields three. Tests cover adversarial values, malformed files, Unicode, long inputs, schema drift, empty inputs, corrupted fixtures and byte determinism. README, measured build evidence, lessons and the pending two-week real-use verdict are included. Real accuracy and savings remain unmeasured. No publishing was performed.
